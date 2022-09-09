@@ -1,0 +1,18 @@
+@import url('font-face.css');
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightgray;
+}
+.content 
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    background-color: yellowgreen;
+    padding: 15px;
+
+}
