@@ -1,0 +1,135 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+.header 
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #2455f4;
+}
+.logo img 
+{
+width: 60%;
+margin-left: 25%;
+}
+#log
+{
+    width: 100%;
+    height: auto;
+    border: none;
+    color: #2455f4;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.header-link li 
+{
+    display: inline-block;
+    padding: 2px 18px;
+
+}
+.header-link a 
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar-link li 
+{
+    display: inline-block;
+    padding: 5px 30px;
+}
+.navbar-link a 
+{
+    color: black;
+    text-transform: capitalize;
+    font-size: 17px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.modal-dialog
+{
+    max-width: 60%;
+    height: 60vh !important;
+    margin-top: 8%;
+}
+#login-sidebar
+{
+    width: 40%;
+    height: 60vh;
+    background-color: #2455f4;
+}
+
+.email,.password 
+{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border: none;
+    border-bottom: solid 2px black;
+}
+#login-btn
+{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+#login-btn-register
+{
+    width: 45%;
+    height: auto;
+    padding: 8px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+#login-btn-reset
+{
+    width: 45%;
+    height: auto;
+    padding: 8px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.content
+{
+    width: 100%;
+    height: auto;
+}
+.footer 
+{
+    width: 100%;
+    height: auto;
+    background-color: #172337;
+   
+}
+.footer-navlink li 
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer-navlink a 
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+  
+}
+#social
+{
+    border-right: solid 1px white;
+}
+.clearfix 
+{
+    border-bottom: solid 1px white;
+    margin-top: 5%;
+}
