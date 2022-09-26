@@ -1,24 +1,23 @@
-
-body
-{
+body {
     margin: 0;
     padding: 0;
     background-color: #efefef;
+    overflow-x: hidden;
 }
-.header 
-{
+
+.header {
     width: 100%;
     height: auto;
     margin: auto;
     background-color: #2455f4;
 }
-.logo img 
-{
-width: 60%;
-margin-left: 25%;
+
+.logo img {
+    width: 60%;
+    margin-left: 25%;
 }
-#log
-{
+
+#log {
     width: 100%;
     height: auto;
     border: none;
@@ -27,54 +26,53 @@ margin-left: 25%;
     font-size: 18px;
     letter-spacing: 2px;
 }
-.header-link li 
-{
+
+.header-link li {
     display: inline-block;
     padding: 2px 18px;
 
 }
-.header-link a 
-{
+
+.header-link a {
     list-style-type: none;
     text-decoration: none;
 }
 
-.navbar-link li 
-{
+.navbar-link li {
     display: inline-block;
     padding: 5px 30px;
 }
-.navbar-link a 
-{
+
+.navbar-link a {
     color: black;
     text-transform: capitalize;
     font-size: 17px;
     list-style-type: none;
     text-decoration: none;
 }
-.modal-dialog
-{
+
+.modal-dialog {
     max-width: 60%;
     height: 60vh !important;
     margin-top: 8%;
 }
-#login-sidebar
-{
+
+#login-sidebar {
     width: 40%;
     height: 60vh;
     background-color: #2455f4;
 }
 
-.email,.password 
-{
+.email,
+.password {
     width: 100%;
     height: auto;
     padding: 8px;
     border: none;
     border-bottom: solid 2px black;
 }
-#login-btn
-{
+
+#login-btn {
     width: 100%;
     height: auto;
     padding: 8px;
@@ -82,8 +80,8 @@ margin-left: 25%;
     background-color: orangered;
     color: white;
 }
-#login-btn-register
-{
+
+#login-btn-register {
     width: 45%;
     height: auto;
     padding: 8px;
@@ -91,8 +89,8 @@ margin-left: 25%;
     background-color: orangered;
     color: white;
 }
-#login-btn-reset
-{
+
+#login-btn-reset {
     width: 45%;
     height: auto;
     padding: 8px;
@@ -100,36 +98,158 @@ margin-left: 25%;
     background-color: red;
     color: white;
 }
-.content
-{
+
+.content {
     width: 100%;
     height: auto;
 }
-.footer 
-{
+
+.footer {
     width: 100%;
     height: auto;
     background-color: #172337;
-   
+
 }
-.footer-navlink li 
-{
+
+.footer-navlink li {
     text-decoration: none;
     list-style-type: none;
 }
-.footer-navlink a 
-{
+
+.footer-navlink a {
     color: white;
     text-decoration: none;
     list-style-type: none;
-  
+
 }
-#social
-{
+
+#social {
     border-right: solid 1px white;
 }
-.clearfix 
-{
+
+.clearfix {
     border-bottom: solid 1px white;
     margin-top: 5%;
 }
+
+.navbar-toggler {
+    float: right !important;
+}
+
+.bi-grid-3x3-gap-fill {
+    font-size: 20px !important;
+    float: right !important;
+}
+
+/* mobile resulations */
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .modal {
+        padding: 0px !important;
+    }
+
+    .modal-content {
+        max-width: 100% !important;
+        height: auto !important;
+        margin: auto !important;
+    }
+
+    .modal-dialog {
+        max-width: 100% !important;
+        height: auto;
+        margin: auto !important;
+        margin-top: 18% !important;
+    }
+
+    #login-sidebar {
+        width: 50% !important;
+        height: auto;
+        background-color: #2455f4;
+    }
+
+    .header {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background-color: #2455f4;
+        z-index: 5 !important;
+    }
+
+    .logo img {
+        width: 30% !important;
+        height: auto !important;
+        margin: auto !important;
+        z-index: 5 !important;
+        margin-left: 35% !important;
+        color: white !important;
+    }
+
+    #log {
+        width: 100% !important;
+        height: auto;
+        border: none;
+        color: #2455f4;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-top: 2% !important;
+    }
+
+    .header-link li {
+        display: inline-block !important;
+        padding: 2px 25px !important;
+
+    }
+
+    .header-link a {
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .navbar-toggler {
+        float: right !important;
+        margin-left: 88% !important;
+    }
+
+    .bi-grid-3x3-gap-fill {
+        font-size: 30px !important;
+        float: right !important;
+    }
+
+    .navbar-link li {
+        display: block !important;
+        padding: 5px 30px;
+
+    }
+
+    .carousel-inner {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    #social {
+        border-right: none !important;
+    }
+
+    .col-md-3 {
+        width: 50% !important;
+        height: auto !important;
+        margin: auto !important;
+
+    }
+
+    .col-md-3 img {
+        width: 70% !important;
+        height: auto !important;
+        margin: auto !important;
+    }
+
+}
+
+/* tab resulations */
+@media only screen and (min-width:481px) and (max-width:767px) {}
+
+/* laptop resulations */
+@media only screen and (min-width:768px) and (max-width:1024x) {}
+
+/* desktop & large resulations */
+@media only screen and (min-width:1025px) and (max-width:1201px) {}

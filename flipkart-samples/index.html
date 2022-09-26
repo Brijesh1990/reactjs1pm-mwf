@@ -30,8 +30,9 @@
    <div class="container-fluid header">
       <div class="row">
          <div class="col-md-2 p-3 logo">
-            <a href="index.html"><img src="images/logo.png" class="img-fluid p-3"></a>
+            <a href="index.html"><img src="images/logo.png"></a>
          </div>
+
          <div class="col-md-5 p-3">
             <form>
                <div class="form-group">
@@ -41,51 +42,55 @@
             </form>
          </div>
          <div class="col-md-5 p-1">
-            <nav class="navbar navbar-expand-md">
-               <ul class="header-link">
-                  <li><a href="#"><button type="button" id="log" class="btn btn-sm bg-white p-1" data-bs-toggle="modal"
-                           data-bs-target="#login">Login <span class="bi bi-person"></span></button></a></li>
+            <ul class="header-link">
+               <li><a href="#"><button type="button" id="log" class="btn btn-sm bg-white p-1" data-bs-toggle="modal"
+                        data-bs-target="#login">Login <span class="bi bi-person"></span></button></a></li>
 
-                  <li class="dropdown"><b><a href="#" class="dropdown-toggle text-white"
-                           data-bs-toggle="dropdown">More</a></b>
-                     <ul class="dropdown-menu">
-                        <li><a href="#">Notification reference</a></li>
-                        <li><a href="#">24x7 times services</a></li>
-                        <li><a href="#">advertise</a></li>
-                        <li><a href="#">download our App</a></li>
-                     </ul>
-                  </li>
+               <li class="dropdown"><b><a href="#" class="dropdown-toggle text-white"
+                        data-bs-toggle="dropdown">More</a></b>
+                  <ul class="dropdown-menu">
+                     <li><a href="#">Notification reference</a></li>
+                     <li><a href="#">24x7 times services</a></li>
+                     <li><a href="#">advertise</a></li>
+                     <li><a href="#">download our App</a></li>
+                  </ul>
+               </li>
 
-                  <li><a href="#">
-                        <b class="text-white">&nbsp;&nbsp;&nbsp;&nbsp;<span class="bi bi-cart"></span> Cart <span
-                              class="badge badge-lg bg-danger text-white">0</span></b></a></li>
+               <li><a href="#">
+                     <b class="text-white">&nbsp;&nbsp;&nbsp;&nbsp;<span class="bi bi-cart"></span> Cart <span
+                           class="badge badge-lg bg-danger text-white">0</span></b></a></li>
 
-               </ul>
-            </nav>
+            </ul>
+
          </div>
 
       </div>
    </div>
    <!-- navbar create here -->
    <nav class="navbar navbar-expand-md bg-white">
-      <ul class="navbar-link">
-         <li><a href="topoffer.html">top offer</a></li>
-         <li><a href="grocry.html">grocery</a></li>
-         <li><a href="mobiles.html">mobiles</a></li>
-         <li><a href="fashion.html">fashion</a></li>
-         <li><a href="electronics.html">electronics</a></li>
-         <li><a href="index.html">home</a></li>
-         <li><a href="appliances.html">appliances</a></li>
-         <li><a href="travel.html">travel</a></li>
-         <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">beauty&toys</a>
-            <ul class="dropdown-menu" style="min-width:200px !important">
-               <li><a href="#">Mens gromming</a></li>
-               <li><a href="#">food & drinks</a></li>
-               <li><a href="#">bath & oral</a></li>
-            </ul>
-         </li>
-         <li><a href="offers.html">offers</a></li>
-      </ul>
+      <button type="button" class="navbar-toggler btn btn-lg" data-bs-toggle="collapse" data-bs-target="#toggColl">
+         <span class="bi bi-grid-3x3-gap-fill"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="toggColl">
+         <ul class="navbar-link">
+            <li><a href="topoffer.html">top offer</a></li>
+            <li><a href="grocry.html">grocery</a></li>
+            <li><a href="mobiles.html">mobiles</a></li>
+            <li><a href="fashion.html">fashion</a></li>
+            <li><a href="electronics.html">electronics</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="appliances.html">appliances</a></li>
+            <li><a href="travel.html">travel</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">beauty&toys</a>
+               <ul class="dropdown-menu" style="min-width:200px !important">
+                  <li><a href="#">Mens gromming</a></li>
+                  <li><a href="#">food & drinks</a></li>
+                  <li><a href="#">bath & oral</a></li>
+               </ul>
+            </li>
+            <li><a href="offers.html">offers</a></li>
+         </ul>
+      </div>
    </nav>
 
    <!-- slider start here -->
@@ -665,32 +670,32 @@
          </div>
       </div>
       <div class="clearfix"></div>
-      <p class="p-5 text-white"><span class="bi bi-bag text-white"></span> Become a Seller <span class="bi bi-clock text-white"></span> Advertise <span class="bi bi-gift text-white"></span> Gift Card <span class="bi bi-hammer text-white"></span> Help center  &nbsp; &nbsp;&nbsp;&nbsp; @2022 all right reserved flipkart.com    
-      &nbsp; &nbsp;&nbsp;&nbsp;
-      <img src="images/payment-method_69e7ec.svg">
-      
+      <p class="p-5 text-white"><span class="bi bi-bag text-white"></span> Become a Seller <span
+            class="bi bi-clock text-white"></span> Advertise <span class="bi bi-gift text-white"></span> Gift Card <span
+            class="bi bi-hammer text-white"></span> Help center &nbsp; &nbsp;&nbsp;&nbsp; @2022 all right reserved
+         flipkart.com
+         &nbsp; &nbsp;&nbsp;&nbsp;
+         <img src="images/payment-method_69e7ec.svg">
+
       </p>
 
    </div>
 
    <!-- modal load here -->
-
    <div class="modal fade" role="dialog" id="login">
       <div class="modal-dialog">
-
          <div class="modal-content">
             <div class="row">
-               <div class="col-md-4" id="login-sidebar">
+               <div class="col-4" id="login-sidebar">
                   <h1 class="text-white p-3">Login</h1>
                   <p class="text-white">Get access to your Orders, Wishlist and Recommendations</p>
-
                   <p><img
                         src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png"
                         class="img-fluid mt-5"></p>
 
                </div>
 
-               <div class="col-md-7 p-5">
+               <div class="col-6 p-5">
                   <form method="post">
                      <div class="from-group mt-2">
                         <input type="text" name="em" placeholder="Enter Email/Mobile number *"
