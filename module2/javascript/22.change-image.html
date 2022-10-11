@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script>
+        function chng()
+        {
+            document.getElementById("imgg").src="images/t.jpg";
+           
+        }
+        
+        function chng1()
+        {
+            document.getElementById("imgg").src="images/t1.webp";
+           
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <img src="images/t.jpg" style="width: 50%; height: 250px;" id="imgg" onmouseover="chng1()" onmouseout="chng()">
+    </center>
+</body>
+</html>

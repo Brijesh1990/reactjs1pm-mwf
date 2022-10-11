@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script>
+        function chng()
+        {
+            document.getElementById("imgg").src="images/offf.png";
+            document.getElementById("imgg").style="width:30%; height:350px";
+           
+        }
+        
+        function chng1()
+        {
+            document.getElementById("imgg").src="images/onn.png";
+            document.getElementById("imgg").style="width:30%; height:350px";
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <img src="images/offf.png" style="width: 30%; height: 350px;" id="imgg">
+        <br><br>
+
+        <button type="button" id="btn" onclick="chng1()">ON</button>
+        <button type="button" id="btn" onclick="chng()">OFF</button>
+    </center>
+</body>
+</html>

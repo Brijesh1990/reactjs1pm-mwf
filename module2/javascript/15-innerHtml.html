@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script>
+        function chk()
+        {
+            var ag=document.getElementById("age").value;
+            document.getElementById("result").innerHTML=ag>=18?'i am eligible for voting':'i am not eligible for voting';
+        }
+    </script>
+</head>
+<body>
+    <center>
+    <form method="post">
+        Enter a age :<input type="text" name="age" id="age" required>
+        <br><br>
+        <button type="button" onclick="chk()">Click to check</button>
+        <br><br>
+        <label id="result"></label>
+    </form> 
+    </center>   
+</body>
+</html>

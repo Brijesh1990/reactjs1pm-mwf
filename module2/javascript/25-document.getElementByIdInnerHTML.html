@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        function subtotal()
+        {
+            var p=document.getElementById("price").value;
+            var q=document.getElementById("qty").value;
+            var t=p*q;
+            document.getElementById("tot").innerHTML=+t;
+        }
+    </script>
+    <style>
+        .crt 
+        {
+            width: 90%;
+            height: auto;
+            margin: auto;
+        }
+        th 
+        {
+            background-color: black;
+            color: white;
+        }
+        table 
+        {
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="crt">
+        <h2>ViewCart(1)</h2>
+        <table width="100%">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Image</th>
+                <th>qty</th>
+                <th>price</th>
+                <th>Action</th>
+                
+            </tr>
+
+            <tr align="center">
+                <td>1010</td>
+                <td>Puma shoes</td>
+                <td><img src="https://images.pexels.com/photos/2759783/pexels-photo-2759783.jpeg?auto=compress&cs=tinysrgb&w=600"  width="90px" height="100px"></td>
+                <td><input type="number" id="qty" min="1" max="10" value="1" onchange="subtotal()"></td>
+                <td>Rs.<input type="text" name="price" id="price" style="border: none" value="4500" readonly></td>
+                <td><a href="#">Delete</a></td>
+            </tr>
+
+            <tr align="center">
+                <td colspan="6" align="right"><h3 align="right" style="background-color: black; color:white; padding: 15px; width:40%;">Subtotal of Products is Rs. <label id="tot">4500</label></h3></td>
+                </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
